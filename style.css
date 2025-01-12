@@ -1,4 +1,28 @@
 .root {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+}
+
+body {
+    display: flex;
+    margin: 0;
+}
+
+#background-image {
+    height: 100vh;
+    width: auto;
+    padding: 0;
+}
+
+.right-section {
+    height: 100vh;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.heading {
+    background-color: beige;
 }
