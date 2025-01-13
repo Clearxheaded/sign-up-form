@@ -24,23 +24,26 @@ body {
 
 .logo-container {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 200px;
+    left: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.7)
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 150px;
 }
 
 .odin-logo {
-    width: 50px; /* Adjust the size of the logo */
+    width: 50px; 
     height: auto;
     margin-bottom: 10px;
+    margin-right: 10px;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-weight: bold;
     margin: 0;
     color: white;
@@ -49,18 +52,27 @@ h1 {
 .credits {
     position: absolute;
     bottom: 10px;
-    left: 20px; /* Adjust so it aligns closer to the edge */
-    color: white; /* Ensure text color is white */
-    font-size: 1em; /* Adjust font size as needed */
-    font-weight: normal; /* Keep the weight consistent */
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    color: white; 
+    font-size: 1em; 
+    font-weight: normal; 
     text-align: left;
+
 }
 
 .credits a {
-    color: white; /* Make the link color match the text */
-    text-decoration: underline; /* Optional: add/remove underline */
+    color: white; 
+    text-decoration: underline; 
 }
 
 .heading {
-    background-color: beige;
+    margin-top: 50px; 
+    text-align: left; 
+    font-size: 24px; 
+    color: black; 
+    line-height: 1.6; 
+    padding: 20px; 
 }
