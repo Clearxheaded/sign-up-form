@@ -76,3 +76,20 @@ h1 {
     line-height: 1.6; 
     padding: 20px; 
 }
+
+#create-account-btn {
+    background-color: #556B2F;    
+    color: white;                
+    padding: 12px 24px;         
+    border: none;                
+    border-radius: 8px;          
+    font-size: 16px;             
+    font-weight: 500;            
+    cursor: pointer;             
+    width: 100%;                 
+    max-width: 200px;            
+}
+
+#create-account-btn:hover {
+    background-color: #4A5D28;    
+}
