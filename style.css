@@ -8,19 +8,57 @@ body {
 }
 
 #background-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left-section {
+    position: relative;
     height: 100vh;
-    width: auto;
-    padding: 0;
 }
 
 .right-section {
     height: 100vh;
 }
 
-p {
-    color: black;
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+.odin-logo {
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 3em;
     font-weight: bold;
-    font-size: 25px;
+    margin: 0;
+    color: white;
+}
+
+.credits {
+    position: absolute;
+    bottom: 10px;
+    left: 20px; /* Adjust so it aligns closer to the edge */
+    color: white; /* Ensure text color is white */
+    font-size: 1em; /* Adjust font size as needed */
+    font-weight: normal; /* Keep the weight consistent */
+    text-align: left;
+}
+
+.credits a {
+    color: white; /* Make the link color match the text */
+    text-decoration: underline; /* Optional: add/remove underline */
 }
 
 .heading {
