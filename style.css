@@ -93,3 +93,91 @@ h1 {
 #create-account-btn:hover {
     background-color: #4A5D28;    
 }
+
+fieldset {
+    border: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0;
+}
+
+fieldset > * {
+    display: inline-block;
+    width: calc(50% - 20px); 
+    margin-right: 40px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+fieldset > *:nth-child(even) {
+    margin-right: 0;
+}
+
+legend {
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    color: #333;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #999;
+    font-size: 14px;
+}
+
+input[type="password"] {
+    border-color: #ff0000;
+}
+
+input:focus {
+    outline: none;
+    border-color: #556B2F;
+    box-shadow: 0 0 5px rgba(85, 107, 47, 0.2);
+}
+
+.right-section {
+    height: 100vh;
+    padding: 0 40px; 
+    width: 60%; 
+    background-color: #f9fafb; 
+}
+
+form {
+    padding: 20px 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0;
+}
+
+.form-group {
+    display: inline-block;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    vertical-align: top;
+}
+
+.form-group:nth-child(odd) {
+    margin-right: 40px;
+}
+
