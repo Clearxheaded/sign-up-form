@@ -20,6 +20,9 @@ body {
 
 .right-section {
     height: 100vh;
+    padding: 0 40px;
+    width: 60%;
+    background-color: #f9fafb;
 }
 
 .logo-container {
@@ -30,13 +33,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;
     background-color: rgba(0, 0, 0, 0.7);
     height: 150px;
 }
 
 .odin-logo {
-    width: 50px; 
+    width: 50px;
     height: auto;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -53,45 +55,53 @@ h1 {
     position: absolute;
     bottom: 10px;
     left: 0;
-    width: 100%; 
+    width: 100%;
     display: flex;
     justify-content: center;
-    color: white; 
-    font-size: 1em; 
-    font-weight: normal; 
-    text-align: left;
-
+    color: white;
+    font-size: 1em;
+    font-weight: normal;
 }
 
 .credits a {
-    color: white; 
-    text-decoration: underline; 
+    color: white;
+    text-decoration: underline;
 }
 
 .heading {
-    margin-top: 50px; 
-    text-align: left; 
-    font-size: 24px; 
-    color: black; 
-    line-height: 1.6; 
-    padding: 20px; 
+    margin-top: 50px;
+    text-align: left;
+    font-size: 24px;
+    color: black;
+    line-height: 1.6;
+    padding: 20px;
 }
 
 #create-account-btn {
-    background-color: #556B2F;    
-    color: white;                
-    padding: 12px 24px;         
-    border: none;                
-    border-radius: 8px;          
-    font-size: 16px;             
-    font-weight: 500;            
-    cursor: pointer;             
-    width: 100%;                 
-    max-width: 200px;            
+    background-color: #556B2F;
+    color: white;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 #create-account-btn:hover {
-    background-color: #4A5D28;    
+    background-color: #4A5D28;
+}
+
+.already-have-account {
+    padding-left: 20px;
+}
+
+form {
+    padding-left: 20px;
 }
 
 fieldset {
@@ -103,8 +113,7 @@ fieldset {
 
 fieldset > * {
     display: inline-block;
-    width: calc(50% - 20px); 
-    margin-right: 40px;
+    width: calc(50% - 20px);
     margin-bottom: 20px;
     vertical-align: top;
 }
@@ -114,10 +123,8 @@ fieldset > *:nth-child(even) {
 }
 
 legend {
-    width: 100%;
     font-size: 24px;
     margin-bottom: 20px;
-    padding: 0;
 }
 
 label {
@@ -152,24 +159,6 @@ input:focus {
     box-shadow: 0 0 5px rgba(85, 107, 47, 0.2);
 }
 
-.right-section {
-    height: 100vh;
-    padding: 0 40px; 
-    width: 60%; 
-    background-color: #f9fafb; 
-}
-
-form {
-    padding: 20px 0;
-}
-
-fieldset {
-    border: none;
-    padding: 0;
-    max-width: 800px;
-    margin: 0;
-}
-
 .form-group {
     display: inline-block;
     width: calc(50% - 20px);
@@ -180,4 +169,3 @@ fieldset {
 .form-group:nth-child(odd) {
     margin-right: 40px;
 }
-
